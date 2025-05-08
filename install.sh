@@ -19,7 +19,7 @@ function install-ta-lib()
     pushd /tmp
     wget https://pip.vnpy.com/colletion/ta-lib-0.6.3-src.tar.gz
     tar -xf ta-lib-0.6.3-src.tar.gz
-    cd ta-lib
+    cd ta-lib-0.6.3
     ./configure --prefix=/usr/local
     make -j1
     make install
